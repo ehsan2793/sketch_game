@@ -31,6 +31,7 @@ def clear_screen():
     jim.penup()
     jim.setposition(0,0)
     jim.pendown()
+
 screen.listen()
 screen.onkey(fun=move_forward, key="Up")
 screen.onkey(fun=move_back, key="Down")
